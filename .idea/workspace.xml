@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f053b3-928f-4f53-a031-1a97c51d3a30" name="Changes" comment="Parte 2, Puntos 1,2 y 3 &#10;&#10;Co-authored-by: MPulidoM &lt;118181543+mpulidom@users.noreply.github.com&gt;">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a0f053b3-928f-4f53-a031-1a97c51d3a30" name="Changes" comment="Reubicación de carpetas" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,28 +36,21 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2UaNsaKFAo6jMo7bABwHhZvLXNE" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/parte2&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/erika/Videos/LAB02_ARSW&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/carpetas",
+    "last_opened_file_path": "C:/Users/erika/Videos/LAB02_ARSW",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="SnakeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="snakepackage.SnakeApp" />
@@ -119,6 +110,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Parte 2, Puntos 1,2 y 3 &#10;&#10;Co-authored-by: MPulidoM &lt;118181543+mpulidom@users.noreply.github.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Parte 2, Puntos 1,2 y 3 &#10;&#10;Co-authored-by: MPulidoM &lt;118181543+mpulidom@users.noreply.github.com&gt;" />
+    <MESSAGE value="Reubicación de carpetas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reubicación de carpetas" />
   </component>
 </project>
