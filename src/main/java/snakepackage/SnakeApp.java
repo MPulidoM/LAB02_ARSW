@@ -12,7 +12,7 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JButton;
 import javax.swing.JPanel;
-
+import java.util.concurrent.atomic.AtomicInteger;
 /**
  * @author jd-
  *
@@ -37,8 +37,12 @@ public class SnakeApp {
     private static Board board;
     int nr_selected = 0;
     Thread[] thread = new Thread[MAX_THREADS];
+    private AtomicInteger deaths;
+    private Notification notifier;
 
     public SnakeApp() {
+        notifier = new Notification(thread);
+        deaths = new AtomicInteger();
         Dimension dimension = Toolkit.getDefaultToolkit().getScreenSize();
         frame = new JFrame("The Snake Race");
         frame.setLayout(new BorderLayout());
@@ -71,7 +75,7 @@ public class SnakeApp {
         
         for (int i = 0; i != MAX_THREADS; i++) {
             
-            snakes[i] = new Snake(i + 1, spawn[i], i + 1);
+            snakes[i] = new Snake(i + 1, spawn[i], i + 1,notifier , deaths);
             snakes[i].addObserver(board);
             thread[i] = new Thread(snakes[i]);
             thread[i].start();
@@ -79,7 +83,7 @@ public class SnakeApp {
 
         frame.setVisible(true);
 
-            
+         /*
         while (true) {
             int x = 0;
             for (int i = 0; i != MAX_THREADS; i++) {
@@ -91,7 +95,7 @@ public class SnakeApp {
                 break;
             }
         }
-
+    */
 
         System.out.println("Thread (snake) status:");
         for (int i = 0; i != MAX_THREADS; i++) {
